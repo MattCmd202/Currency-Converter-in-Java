@@ -39,7 +39,7 @@ public class CurrencyConverter {
                     break;
                 case 4:
                     System.out.println("Thank you for using the Currency Converter!");
-                    scanner.close();
+                    scnr.close();
                     return;
                 default:
                     System.out.println("Invalid choice. Please try again.");
