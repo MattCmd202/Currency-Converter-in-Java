@@ -21,19 +21,19 @@ public class CurrencyConverter {
             switch (choice) {
                 case 1:
                     System.out.print("Enter the amount in USD: ");
-                    double usdAmount = scanner.nextDouble();
+                    double usdAmount = scnr.nextDouble();
                     double usdAmountToPesos = usdAmount * usdToPesosRate;
                     System.out.println(usdAmount + " USD is equivalent to " + usdAmountToPesos + " Pesos");
                     break;
                 case 2:
                     System.out.print("Enter the amount in EUR: ");
-                    double eurAmount = scanner.nextDouble();
+                    double eurAmount = scnr.nextDouble();
                     double euroAmountToPesos = eurAmount * eurToPesosRate;
                     System.out.println(eurAmount + " EUR is equivalent to " + euroAmountToPesos + " Pesos");             
                     break;
                 case 3:
                     System.out.print("Enter the amount in YEN: ");
-                    double yenAmount = scanner.nextDouble();
+                    double yenAmount = scnr.nextDouble();
                     double yenAmountToPesos = yenAmount * yenToPesosRate;
                     System.out.println(yenAmount + " YEN is equivalent to " + yenAmountToPesos + " Pesos");
                     break;
